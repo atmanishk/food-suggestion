@@ -22,7 +22,7 @@ const foodDB = {
 };
 
 export default function App() {
-  const [selectedCuisine, setCuisine] = useState("dinner");
+  const [selectedCuisine, setCuisine] = useState("breakfast");
   function cuisineClickHandler(cuisine) {
     setCuisine(cuisine);
   }
